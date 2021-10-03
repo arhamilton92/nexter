@@ -166,7 +166,7 @@ body {
 .story__content {
   background-color: #f9f7f6;
   grid-column: col-start 5 / full-end;
-  padding: 6rem 12rem;
+  padding: 4vh 6vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
