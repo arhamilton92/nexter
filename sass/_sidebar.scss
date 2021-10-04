@@ -3,6 +3,13 @@
     grid-column: sidebar-start / sidebar-end;
     grid-row: 1 / -1;
 
+	@media only screen and (max-width: $bp-l) {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        justify-content: flex-start;
+        align-items: center;
+	}
+
     display: flex;
     justify-content: center;
 }
@@ -15,6 +22,11 @@
     height: 2px;
     width: 45px;
     margin-top: 4rem;
+
+    @media only screen and (max-width: $bp-l) {
+        margin: 0;
+        margin-left: 3rem;
+	}
 
     &::before,
     &::after {
